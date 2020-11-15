@@ -1,0 +1,8 @@
+variant: fcos
+version: 1.1.0
+passwd:
+  users:
+  - name: core
+    password_hash: $6$DiMV47pUp5smPFzu$t/ilxu7XhX28eHMqKWDJ0VGzdjA.o43PsQsbHljT6KI9SdD1IKoAbbjNhnptAIofL7R/fY5kr8M4jsgzCJ3Q..
+    ssh_authorized_keys:
+    - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDOvKVHpNeNsTNimWxpoggdQtkliCG8wxK0UZaiKWfjWpVB7rme4Cf+wror+OXdnM/cd5P4nlGmJkTWJ1BeyEpbkqFv+GNVy9ULO3SPFGFE+Qb+K0+89QfE5oDvODkX5hEi7RiNwjuJPyfXEK7TBYHvlZTMyKayCM5uV+9/yvOj/oCM/a8T91l+scA1sYPw+xlxlfUc/RZiUZzxqBUiSmbelHsH5dzQHj65m5HZjy0zmWXvJS9FWTPpUQWAa4FCjhzDcGMQZ4wXJIwQ4NMhE3a8LycuDqnvQpR+48CBjYwm9uA8VKxeUMU1gzBxSKJz8pP/TJz7gWbsActjeCuhudXz root@centos

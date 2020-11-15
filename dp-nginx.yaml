@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+    name: nginxrs
+    labels:
+      app: my-app
+      type: webserver
+spec:
+  template:
+    metadata:
+      name: nginx-pod
+      labels:
+        app: my-app
+        type: webserver
+    spec:
+      containers:
+          - name: nginx-pod
+            image: nginx
+  replicas: 6
+  selector:
+      matchLabels:
+        type: webserver
+
